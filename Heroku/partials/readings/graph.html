@@ -1,0 +1,20 @@
+
+<style>
+chart{
+    display:none;
+    width:400px;
+    height:200px;
+}
+</style>
+
+<h2>{{station}}, {{sensor}}</h2> 
+
+<p><a href="#/readings">Back to list</a></p>
+
+<div ng-app='AngularSFDemo'>
+    <div ng-controller='ReadingsGraphCtrl'>
+        <chart ng-model='graphData'>
+         
+     </chart>
+        
+</div>

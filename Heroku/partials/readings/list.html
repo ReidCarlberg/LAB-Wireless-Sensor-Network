@@ -1,0 +1,23 @@
+<h2>Readings</h2>
+
+        <table width="80%" class="table">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Station</th>
+                <th>Sensor</th>
+                <th>Value</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr ng-repeat="current in readings">
+                <td>{{current.Id}}</td>
+                <td>{{current.Station__c}}</td>
+                <td><a href="#/graph/{{current.Station__c}}/{{current.Sensor__c}}">{{current.Sensor__c}}</a></td>
+                <td>{{current.Value__c}}</td>
+                <td>{{current.CreatedDate}}</td>
+            </tr>
+            </tbody>
+        </table>
