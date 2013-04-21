@@ -12,15 +12,6 @@ username = os.getenv('USERNAME')
 password = os.getenv('PASSWORD')
 login_server = os.getenv('LOGIN_SERVER')
 
-
-print(os.environ)
-
-print(consumer_key)
-print(consumer_secret)
-print(username)
-print(password)
-print(login_server)
-
 #  
 # Do OAuth username/password
 token_url = login_server+'/services/oauth2/token'
