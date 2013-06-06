@@ -2,5 +2,5 @@ Example Wireless Sensor Network using Arduino, Raspberry Pi and Salesforce.  Mor
 
 Salesforce code installable via unmanaged package:
 
-https://na9.salesforce.com/packaging/exportPackageDetail.apexp?p1=04tE000000095qM
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE000000095qM
 
